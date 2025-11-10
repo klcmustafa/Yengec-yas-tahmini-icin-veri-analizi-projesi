@@ -133,47 +133,7 @@ Proje kapsamında yapılan analizler sonucunda şu önemli bulgulara ulaşılmı
 
 4. **Tüm Fiziksel Özellikler Önemli**: Tüm fiziksel özellikler yaş tahmininde önemli rol oynamaktadır. En düşük korelasyon katsayısı bile 0.41 seviyesindedir, bu da tüm özelliklerin model için değerli olduğunu göstermektedir.
 
-## 🚀 Kurulum ve Kullanım
 
-### Gereksinimler
-- Python 3.x
-- Jupyter Notebook veya JupyterLab
-
-3. **Veri Setini İndirin**
-   - [Kaggle - Crab Age Prediction Dataset](https://www.kaggle.com/datasets/sidhus/crab-age-prediction/data) sayfasından veri setini indirin
-   - `CrabAgePrediction.csv` dosyasını proje ana dizinine yerleştirin
-
-4. **Jupyter Notebook'u Başlatın**
-```bash
-jupyter notebook veri_analizi.ipynb
-```
-
-veya JupyterLab kullanıyorsanız:
-```bash
-jupyter lab veri_analizi.ipynb
-```
-
-### Notlar
-- Veri seti dosyası (`CrabAgePrediction.csv`) proje dizininde olmalıdır
-- Tüm analizler `veri_analizi.ipynb` notebook'u içinde gerçekleştirilmiştir
-- Notebook'u hücre hücre çalıştırarak tüm analiz sürecini takip edebilirsiniz
-
-## 📁 Proje Yapısı
-
-Proje aşağıdaki dosya yapısına sahiptir:
-
-```
-Yengec-yas-tahmini-icin-veri-analizi-projesi/
-│
-├── veri_analizi.ipynb          # Ana analiz notebook'u (tüm analizler burada)
-├── CrabAgePrediction.csv       # Veri seti (Kaggle'dan indirilmesi gerekiyor)
-└── README.md                   # Proje dokümantasyonu (bu dosya)
-```
-
-### Dosya Açıklamaları
-
-- **`veri_analizi.ipynb`**: Tüm veri analizi, ön işleme, modelleme ve değerlendirme adımlarını içeren Jupyter Notebook dosyası. Projenin ana çalışma dosyasıdır.
-- **`CrabAgePrediction.csv`**: Kaggle'dan indirilmesi gereken ham veri seti. Bu dosya proje dizinine yerleştirilmelidir.
 
 ## 📝 Önemli Notlar
 
